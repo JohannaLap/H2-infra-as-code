@@ -15,9 +15,11 @@ Tässä kohtaa minulla oli jotakin ongelmia hyvin pitkään. Sain useaan kertaan
 Yritin ladata ja asentaa vagrantin uudelleen ja tämä ratkaisikin ongelmani. 
 
 Olin siis luonut uuden hakemiston.
+
 ![hakemisto vagrantille](https://github.com/JohannaLap/H2-infra-as-code/blob/main/hakemisto%20vagrantille.png)
 
 Loin vagrantfilen.
+
 ![vagrantinit](https://github.com/JohannaLap/H2-infra-as-code/blob/main/vagrant%20init.png)
 
 Jonka jälkeen tosiaan käynnistin vagrantin uudelleen. 
