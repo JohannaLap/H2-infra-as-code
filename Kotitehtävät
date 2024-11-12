@@ -1,0 +1,17 @@
+## x) Tiivistelmä
+
+## a) Vagrantin asennus
+Tarkistin, että vagrant on asennettuna koneelle. 
+
+![kuvateksti]()
+
+
+## b) Vagrantilla tehty linux-virtuaalikone
+Tässä kohtaa minulla oli jotakin ongelmia hyvin pitkään. Sain useaan kertaan saman error viestin. 
+
+![kuvateksti]()
+
+Yritin ladata ja asentaa vagrantin uudelleen. 
+
+
+c) Kaksin kaunihimpi. Tee kahden Linux-tietokoneen verkko Vagrantilla. Osoita, että koneet voivat pingata toisiaan.
