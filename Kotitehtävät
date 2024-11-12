@@ -9,9 +9,45 @@ Tarkistin, että vagrant on asennettuna koneelle.
 ## b) Vagrantilla tehty linux-virtuaalikone
 Tässä kohtaa minulla oli jotakin ongelmia hyvin pitkään. Sain useaan kertaan saman error viestin. 
 
-![kuvateksti]()
+![ongelmia]()
 
-Yritin ladata ja asentaa vagrantin uudelleen. 
+Yritin ladata ja asentaa vagrantin uudelleen ja tämä ratkaisikin ongelmani. 
 
+Olin siis luonut uuden hakemiston.
+![hakemisto vagrantille]()
 
-c) Kaksin kaunihimpi. Tee kahden Linux-tietokoneen verkko Vagrantilla. Osoita, että koneet voivat pingata toisiaan.
+Loin vagrantfilen.
+![vagrantinit]()
+
+Jonka jälkeen tosiaan käynnistin vagrantin uudelleen. 
+
+![vagrant up]()
+
+Tarkistin vielä, että versio on päivitetty nyt. 
+
+![uusiversio]()
+
+Ja tässä vielä näkymä virtualboxissa. Uusi vagrant kone on ilmestynyt. 
+
+![vagrant virtualboxissa]()
+
+Avasin yhteyden ssh:lla virtuaalikoneeseen, jolla pääsin koneen sisälle. Testasin vielä komennolla ls -la että näen koneen sisältöä. 
+
+![ssh ja ls]()
+
+## c) Kaksin kaunihimpi
+Muokkasin edellisessä kohdassa jo valmiiksi löytyvää vagrantfileä ohjeiden mukaiseen muotoon. 
+Näin sain luotua kaksi virtuaali konetta. 
+Ajoin vagrant up komennon uudestaan ja tarkistin, että molemmat koneet ovat näkyvillä virtualboxissa. 
+
+![t_001 ja t_002]()
+
+![notepad]()
+
+![testvagrant_0012]()
+
+Testatin, että koneet saavat yhteyden nettiin
+
+![t_001 googleping]()
+
+ Tee kahden Linux-tietokoneen verkko Vagrantilla. Osoita, että koneet voivat pingata toisiaan.
