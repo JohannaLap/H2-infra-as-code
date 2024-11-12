@@ -61,3 +61,26 @@ Asensin salt-masterin t001 koneelle. Ja minionin t002 koneelle.
 ![salt001]()
 
 ![salt002]()
+
+Tarkistin että sekä minion, että masteri ovat aktiivisina. 
+
+![master active]()
+
+![minionactive]()
+
+Muokkasin minionin tiedostoon masterin ip osoitteen. Tämän jälkeen käynnistin minionin vielä uudestaan.
+
+![masteripnotepad]()
+
+Testasin, että t001 kone voi pingata t002
+![testping]()
+
+Testasin myös masterkoneen kautta asentaa vimin t002 koneelle. 
+![vim asennus]()
+
+## e) Infrakoodi
+
+
+
+
+
