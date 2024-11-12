@@ -46,8 +46,18 @@ Ajoin vagrant up komennon uudestaan ja tarkistin, että molemmat koneet ovat nä
 
 ![testvagrant_0012]()
 
-Testatin, että koneet saavat yhteyden nettiin
+Testatin, että koneet saavat yhteyden nettiin ja toisiinsa
 
 ![t_001 googleping]()
 
- Tee kahden Linux-tietokoneen verkko Vagrantilla. Osoita, että koneet voivat pingata toisiaan.
+![ping 001 to 002]()
+
+![ping 002 to 001]()
+
+
+## d) Herra-orja verkossa
+Asensin salt-masterin t001 koneelle. Ja minionin t002 koneelle. 
+
+![salt001]()
+
+![salt002]()
